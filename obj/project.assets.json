@@ -12,7 +12,7 @@
     "C:\\Microsoft\\Xamarin\\NuGet\\": {}
   },
   "project": {
-    "version": "1.0.0",
+    "version": "1.0.0.24",
     "restore": {
       "projectUniqueName": "C:\\Users\\Kevin\\source\\repos\\Floweum\\Floweum Node\\Floweum Node.csproj",
       "projectName": "Floweum Node",

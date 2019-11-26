@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.0": {
+      "Floweum Node/1.0.0.24": {
+        "runtime": {
+          "Floweum Node.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Floweum Node/1.0.0.24": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

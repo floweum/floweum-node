@@ -1,9 +1,13 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
     <OutputType>Exe</OutputType>
     <TargetFramework>netcoreapp3.0</TargetFramework>
     <RootNamespace>Floweum_Node</RootNamespace>
+    <ApplicationIcon>Resources\logo.ico</ApplicationIcon>
+    <Company>Floweum</Company>
+    <Product>Floweum</Product>
+    <Version>1.0.0.24</Version>
   </PropertyGroup>
 
 </Project>

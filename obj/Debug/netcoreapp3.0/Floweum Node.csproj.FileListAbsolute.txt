@@ -1,0 +1,11 @@
+C:\Users\Kevin\source\repos\Floweum\Floweum Node\bin\Debug\netcoreapp3.0\Floweum Node.exe
+C:\Users\Kevin\source\repos\Floweum\Floweum Node\bin\Debug\netcoreapp3.0\Floweum Node.deps.json
+C:\Users\Kevin\source\repos\Floweum\Floweum Node\bin\Debug\netcoreapp3.0\Floweum Node.runtimeconfig.json
+C:\Users\Kevin\source\repos\Floweum\Floweum Node\bin\Debug\netcoreapp3.0\Floweum Node.runtimeconfig.dev.json
+C:\Users\Kevin\source\repos\Floweum\Floweum Node\bin\Debug\netcoreapp3.0\Floweum Node.dll
+C:\Users\Kevin\source\repos\Floweum\Floweum Node\bin\Debug\netcoreapp3.0\Floweum Node.pdb
+C:\Users\Kevin\source\repos\Floweum\Floweum Node\obj\Debug\netcoreapp3.0\Floweum Node.csprojAssemblyReference.cache
+C:\Users\Kevin\source\repos\Floweum\Floweum Node\obj\Debug\netcoreapp3.0\Floweum Node.AssemblyInfoInputs.cache
+C:\Users\Kevin\source\repos\Floweum\Floweum Node\obj\Debug\netcoreapp3.0\Floweum Node.AssemblyInfo.cs
+C:\Users\Kevin\source\repos\Floweum\Floweum Node\obj\Debug\netcoreapp3.0\Floweum Node.dll
+C:\Users\Kevin\source\repos\Floweum\Floweum Node\obj\Debug\netcoreapp3.0\Floweum Node.pdb
