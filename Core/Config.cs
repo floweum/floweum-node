@@ -7,15 +7,24 @@ namespace Floweum_Node.Core
 {
     class Config
     {
-        /* This will be the name of your coin */
-        public static string CoinName = "Floweum";
-        /* This will be the coin's ticker. Maximum of 5 characters */
-        public static string CoinTicker = "FLOW";
-        /* This will get the build version of the node. You can edit this in 'Floweum Node.csproj' */
-        public static string BuildVersion = Assembly.GetExecutingAssembly().GetName().Version.ToString();
-        /* This will be the build name of the node. U can change this to anything u want */
-        public static string BuildName = "RedAmazon";
-        /* Kanker */
-
+        public static string CoinName              = "Floweum";         // Coin name
+        public static string CoinTicker            = "FLOW";            // Coin ticker
+        public static string CoinNetworkId         = "FLOWV100NET";     // Network ID
+        public static string BuildVersion          = Assembly.GetExecutingAssembly().GetName().Version.ToString();
+        public static string BuildName             = "RedAmazon";       // Build name
+        public static int    DifficultTarget       = 600;               // 10 Minute block time
+        public static int    MoneySupply           = 11000000;          // 10 Million Coins
+        public static bool   Halvening             = true;              // Enable or disable halvening
+        public static int    HalveningBlocks       = 105120;            // Halvening ever 105120 block. Approx 2 years
+        public static int    GenesisBlockReward    = 11000;             // 0,10% premine
+        public static int    GenesisBlockTimestamp = 1545261161;        // First block timestamp
+        public static string GenesisBlockWallet    = "FLOWf826ee21e3fb1087adb747dbedfc8de0";
+        public static int    WalletLenght          = 64;                // Wallet lenght including prefix
+        public static string WalletPrefix          = "FLOW";
+        public static int    BlockUnlock           = 3;                 // Block unlocked after 3 confirmations
+        public static int    Port                  = 4222;              // Port of the node
+        public static string[] SeedNodes = {
+            "127.0.0.1:4222"
+        };
     }
 }
