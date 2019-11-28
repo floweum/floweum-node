@@ -1,7 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Reflection;
-using System.Text;
+﻿using System.Reflection;
 
 namespace Floweum_Node.Core
 {
@@ -9,27 +6,27 @@ namespace Floweum_Node.Core
     {
         public static string CoinName                       = "Floweum";         // Coin name
         public static string CoinTicker                     = "FLOW";            // Coin ticker
-        public static string CoinNetworkId                  = "FLOWV100NET";     // Network ID
+        public static string CoinNetworkId                  = "FLW10NET";        // Network ID - Must be 8 chars
+        public static int    CoinNetworkVersion             = 0001;              // Network Version - Must be 4 chars
         public static string BuildVersion                   = Assembly.GetExecutingAssembly().GetName().Version.ToString();
         public static string BuildName                      = "RedAmazon";       // Build name
-        public static int    DifficultTarget                = 600;               // 10 Minute block time
-        public static int    MoneySupply                    = 11000000;          // 10 Million Coins
-        public static int    Decimals                       = 8;                 // 8 Decimals
-        public static int    AtomicUnits                    = 100000000;         // 1 FLOW 
-        public static bool   Halvening                      = true;              // Enable or disable halvening
-        public static int    HalveningBlocks                = 105120;            // Halvening ever 105120 block. Approx 2 years
-        public static long   BlockReward                    = 5000000000;        // 50.00000000 FLOW reward
-        public static int    GenesisBlockReward             = 11000;             // 0,10% premine
-        public static int    GenesisBlockTimestamp          = 1545261161;        // First block timestamp
-        public static string GenesisBlockWallet             = "FLOWf826ee21e3fb1087adb747dbedfc8de0";
-        public static int    WalletLength                   = 64;                // Wallet lenght including prefix
-        public static string WalletPrefix                   = "FLOW";            // Begin on the wallet 'FLOW...'
+        /*public static int    DifficultTarget                = 600;               // 10 Minute block time
+        public static int    MoneySupply                    = 11000000;          // 11 Million Coins - Not in atomic units
+        public static int    AtomicUnits                    = 100000000;         // 1 FLOW
+        public static int[]  HalveningBlocks = {                                 // Halvening of the block reward
+            105120,                                                              // Halvening from 50 FLOW -> 25 FLOW at block 105120 blocks. Approx 2 years from creation
+            210240                                                               // Halvening from 25 FLOW -> 12.5 FLOW at block 210240 blocks. Approx 4 years from creation
+        };
+        public static long   BlockReward                    = 5000000000;        // 50.00000000 FLOW reward - In atomic units */
+        public static long   GenesisBlockReward             = 5500000000000;     // 0,50% premine - 55000.00000000 FLOW - In atomic units
+        public static string GenesisBlockWallet             = "FLOWajELTh4wpmLCCWTP3Ky02MH4D7Yx2Rc2YEEHLw4YGDo9p8OgIc7AMCtfAfAq";
+        /*public static string WalletPrefix                   = "FLOW";            // Begin of the wallet address, 'FLOW...'
         public static int    BlockUnlock                    = 3;                 // Block unlocked after 3 confirmations
-        public static int    Port                           = 4222;              // Port of the node
+        public static int    Port                           = 4222;              // Port of the node */
         public static string BlockchainTransactionsDatabase = "transactions.flowdb";
         public static string BlockchainBlocksDatabase       = "blocks.flowdb";
-        public static string[] SeedNodes = {
+        /*public static string[] SeedNodes = {
             "127.0.0.1:4222"
-        };
+        };*/
     }
 }
