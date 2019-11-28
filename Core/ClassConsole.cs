@@ -26,7 +26,7 @@ namespace Floweum_Node
             switch (command.ToLower())
             {
                 case ConsoleKey.CommandHelp:
-                    ClassConsole.WriteLine("(" + ConsoleKey.CommandStatus + ") Show status - (" + ConsoleKey.CommandHelp + ") This message - (" + ConsoleKey.CommandExit + ") Exit", ConsoleColor.Blue, false);
+                    ClassConsole.WriteLine("(" + ConsoleKey.CommandStatus + ") Show status - (" + ConsoleKey.CommandHelp + ") This help message - (" + ConsoleKey.CommandExit + ") Exit", ConsoleColor.Blue, false);
                     break;
                 case ConsoleKey.CommandExit:
                     Environment.Exit(0);
