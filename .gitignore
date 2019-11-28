@@ -1,0 +1,241 @@
+
+bin/Debug/netcoreapp3.0/Blockchain/blocks.flowdb
+bin/Debug/netcoreapp3.0/Blockchain/transactions.flowdb
+bin/Debug/netcoreapp3.0/Floweum Node.dll
+bin/Debug/netcoreapp3.0/Floweum Node.pdb
+bin/Debug/netcoreapp3.0/ubuntu.16.04-arm/createdump
+bin/Debug/netcoreapp3.0/ubuntu.16.04-arm/Floweum Node
+bin/Debug/netcoreapp3.0/ubuntu.16.04-arm/Floweum Node.deps.json
+bin/Debug/netcoreapp3.0/ubuntu.16.04-arm/Floweum Node.dll
+bin/Debug/netcoreapp3.0/ubuntu.16.04-arm/Floweum Node.pdb
+bin/Debug/netcoreapp3.0/ubuntu.16.04-arm/Floweum Node.runtimeconfig.dev.json
+bin/Debug/netcoreapp3.0/ubuntu.16.04-arm/Floweum Node.runtimeconfig.json
+bin/Debug/netcoreapp3.0/ubuntu.16.04-arm/libclrjit.so
+bin/Debug/netcoreapp3.0/ubuntu.16.04-arm/libcoreclr.so
+bin/Debug/netcoreapp3.0/ubuntu.16.04-arm/libcoreclrtraceptprovider.so
+bin/Debug/netcoreapp3.0/ubuntu.16.04-arm/libdbgshim.so
+bin/Debug/netcoreapp3.0/ubuntu.16.04-arm/libhostfxr.so
+bin/Debug/netcoreapp3.0/ubuntu.16.04-arm/libhostpolicy.so
+bin/Debug/netcoreapp3.0/ubuntu.16.04-arm/libmscordaccore.so
+bin/Debug/netcoreapp3.0/ubuntu.16.04-arm/libmscordbi.so
+bin/Debug/netcoreapp3.0/ubuntu.16.04-arm/Microsoft.CSharp.dll
+bin/Debug/netcoreapp3.0/ubuntu.16.04-arm/Microsoft.VisualBasic.Core.dll
+bin/Debug/netcoreapp3.0/ubuntu.16.04-arm/Microsoft.VisualBasic.dll
+bin/Debug/netcoreapp3.0/ubuntu.16.04-arm/Microsoft.Win32.Primitives.dll
+bin/Debug/netcoreapp3.0/ubuntu.16.04-arm/Microsoft.Win32.Registry.dll
+bin/Debug/netcoreapp3.0/ubuntu.16.04-arm/mscorlib.dll
+bin/Debug/netcoreapp3.0/ubuntu.16.04-arm/netstandard.dll
+bin/Debug/netcoreapp3.0/ubuntu.16.04-arm/SOS_README.md
+bin/Debug/netcoreapp3.0/ubuntu.16.04-arm/System.AppContext.dll
+bin/Debug/netcoreapp3.0/ubuntu.16.04-arm/System.Buffers.dll
+bin/Debug/netcoreapp3.0/ubuntu.16.04-arm/System.Collections.Concurrent.dll
+bin/Debug/netcoreapp3.0/ubuntu.16.04-arm/System.Collections.dll
+bin/Debug/netcoreapp3.0/ubuntu.16.04-arm/System.Collections.Immutable.dll
+bin/Debug/netcoreapp3.0/ubuntu.16.04-arm/System.Collections.NonGeneric.dll
+bin/Debug/netcoreapp3.0/ubuntu.16.04-arm/System.Collections.Specialized.dll
+bin/Debug/netcoreapp3.0/ubuntu.16.04-arm/System.ComponentModel.Annotations.dll
+bin/Debug/netcoreapp3.0/ubuntu.16.04-arm/System.ComponentModel.DataAnnotations.dll
+bin/Debug/netcoreapp3.0/ubuntu.16.04-arm/System.ComponentModel.dll
+bin/Debug/netcoreapp3.0/ubuntu.16.04-arm/System.ComponentModel.EventBasedAsync.dll
+bin/Debug/netcoreapp3.0/ubuntu.16.04-arm/System.ComponentModel.Primitives.dll
+bin/Debug/netcoreapp3.0/ubuntu.16.04-arm/System.ComponentModel.TypeConverter.dll
+bin/Debug/netcoreapp3.0/ubuntu.16.04-arm/System.Configuration.dll
+bin/Debug/netcoreapp3.0/ubuntu.16.04-arm/System.Console.dll
+bin/Debug/netcoreapp3.0/ubuntu.16.04-arm/System.Core.dll
+bin/Debug/netcoreapp3.0/ubuntu.16.04-arm/System.Data.Common.dll
+bin/Debug/netcoreapp3.0/ubuntu.16.04-arm/System.Data.DataSetExtensions.dll
+bin/Debug/netcoreapp3.0/ubuntu.16.04-arm/System.Data.dll
+bin/Debug/netcoreapp3.0/ubuntu.16.04-arm/System.Diagnostics.Contracts.dll
+bin/Debug/netcoreapp3.0/ubuntu.16.04-arm/System.Diagnostics.Debug.dll
+bin/Debug/netcoreapp3.0/ubuntu.16.04-arm/System.Diagnostics.DiagnosticSource.dll
+bin/Debug/netcoreapp3.0/ubuntu.16.04-arm/System.Diagnostics.FileVersionInfo.dll
+bin/Debug/netcoreapp3.0/ubuntu.16.04-arm/System.Diagnostics.Process.dll
+bin/Debug/netcoreapp3.0/ubuntu.16.04-arm/System.Diagnostics.StackTrace.dll
+bin/Debug/netcoreapp3.0/ubuntu.16.04-arm/System.Diagnostics.TextWriterTraceListener.dll
+bin/Debug/netcoreapp3.0/ubuntu.16.04-arm/System.Diagnostics.Tools.dll
+bin/Debug/netcoreapp3.0/ubuntu.16.04-arm/System.Diagnostics.TraceSource.dll
+bin/Debug/netcoreapp3.0/ubuntu.16.04-arm/System.Diagnostics.Tracing.dll
+bin/Debug/netcoreapp3.0/ubuntu.16.04-arm/System.dll
+bin/Debug/netcoreapp3.0/ubuntu.16.04-arm/System.Drawing.dll
+bin/Debug/netcoreapp3.0/ubuntu.16.04-arm/System.Drawing.Primitives.dll
+bin/Debug/netcoreapp3.0/ubuntu.16.04-arm/System.Dynamic.Runtime.dll
+bin/Debug/netcoreapp3.0/ubuntu.16.04-arm/System.Globalization.Calendars.dll
+bin/Debug/netcoreapp3.0/ubuntu.16.04-arm/System.Globalization.dll
+bin/Debug/netcoreapp3.0/ubuntu.16.04-arm/System.Globalization.Extensions.dll
+bin/Debug/netcoreapp3.0/ubuntu.16.04-arm/System.Globalization.Native.so
+bin/Debug/netcoreapp3.0/ubuntu.16.04-arm/System.IO.Compression.Brotli.dll
+bin/Debug/netcoreapp3.0/ubuntu.16.04-arm/System.IO.Compression.dll
+bin/Debug/netcoreapp3.0/ubuntu.16.04-arm/System.IO.Compression.FileSystem.dll
+bin/Debug/netcoreapp3.0/ubuntu.16.04-arm/System.IO.Compression.Native.a
+bin/Debug/netcoreapp3.0/ubuntu.16.04-arm/System.IO.Compression.Native.so
+bin/Debug/netcoreapp3.0/ubuntu.16.04-arm/System.IO.Compression.ZipFile.dll
+bin/Debug/netcoreapp3.0/ubuntu.16.04-arm/System.IO.dll
+bin/Debug/netcoreapp3.0/ubuntu.16.04-arm/System.IO.FileSystem.AccessControl.dll
+bin/Debug/netcoreapp3.0/ubuntu.16.04-arm/System.IO.FileSystem.dll
+bin/Debug/netcoreapp3.0/ubuntu.16.04-arm/System.IO.FileSystem.DriveInfo.dll
+bin/Debug/netcoreapp3.0/ubuntu.16.04-arm/System.IO.FileSystem.Primitives.dll
+bin/Debug/netcoreapp3.0/ubuntu.16.04-arm/System.IO.FileSystem.Watcher.dll
+bin/Debug/netcoreapp3.0/ubuntu.16.04-arm/System.IO.IsolatedStorage.dll
+bin/Debug/netcoreapp3.0/ubuntu.16.04-arm/System.IO.MemoryMappedFiles.dll
+bin/Debug/netcoreapp3.0/ubuntu.16.04-arm/System.IO.Pipes.AccessControl.dll
+bin/Debug/netcoreapp3.0/ubuntu.16.04-arm/System.IO.Pipes.dll
+bin/Debug/netcoreapp3.0/ubuntu.16.04-arm/System.IO.UnmanagedMemoryStream.dll
+bin/Debug/netcoreapp3.0/ubuntu.16.04-arm/System.Linq.dll
+bin/Debug/netcoreapp3.0/ubuntu.16.04-arm/System.Linq.Expressions.dll
+bin/Debug/netcoreapp3.0/ubuntu.16.04-arm/System.Linq.Parallel.dll
+bin/Debug/netcoreapp3.0/ubuntu.16.04-arm/System.Linq.Queryable.dll
+bin/Debug/netcoreapp3.0/ubuntu.16.04-arm/System.Memory.dll
+bin/Debug/netcoreapp3.0/ubuntu.16.04-arm/System.Native.a
+bin/Debug/netcoreapp3.0/ubuntu.16.04-arm/System.Native.so
+bin/Debug/netcoreapp3.0/ubuntu.16.04-arm/System.Net.dll
+bin/Debug/netcoreapp3.0/ubuntu.16.04-arm/System.Net.Http.dll
+bin/Debug/netcoreapp3.0/ubuntu.16.04-arm/System.Net.Http.Native.a
+bin/Debug/netcoreapp3.0/ubuntu.16.04-arm/System.Net.Http.Native.so
+bin/Debug/netcoreapp3.0/ubuntu.16.04-arm/System.Net.HttpListener.dll
+bin/Debug/netcoreapp3.0/ubuntu.16.04-arm/System.Net.Mail.dll
+bin/Debug/netcoreapp3.0/ubuntu.16.04-arm/System.Net.NameResolution.dll
+bin/Debug/netcoreapp3.0/ubuntu.16.04-arm/System.Net.NetworkInformation.dll
+bin/Debug/netcoreapp3.0/ubuntu.16.04-arm/System.Net.Ping.dll
+bin/Debug/netcoreapp3.0/ubuntu.16.04-arm/System.Net.Primitives.dll
+bin/Debug/netcoreapp3.0/ubuntu.16.04-arm/System.Net.Requests.dll
+bin/Debug/netcoreapp3.0/ubuntu.16.04-arm/System.Net.Security.dll
+bin/Debug/netcoreapp3.0/ubuntu.16.04-arm/System.Net.Security.Native.a
+bin/Debug/netcoreapp3.0/ubuntu.16.04-arm/System.Net.Security.Native.so
+bin/Debug/netcoreapp3.0/ubuntu.16.04-arm/System.Net.ServicePoint.dll
+bin/Debug/netcoreapp3.0/ubuntu.16.04-arm/System.Net.Sockets.dll
+bin/Debug/netcoreapp3.0/ubuntu.16.04-arm/System.Net.WebClient.dll
+bin/Debug/netcoreapp3.0/ubuntu.16.04-arm/System.Net.WebHeaderCollection.dll
+bin/Debug/netcoreapp3.0/ubuntu.16.04-arm/System.Net.WebProxy.dll
+bin/Debug/netcoreapp3.0/ubuntu.16.04-arm/System.Net.WebSockets.Client.dll
+bin/Debug/netcoreapp3.0/ubuntu.16.04-arm/System.Net.WebSockets.dll
+bin/Debug/netcoreapp3.0/ubuntu.16.04-arm/System.Numerics.dll
+bin/Debug/netcoreapp3.0/ubuntu.16.04-arm/System.Numerics.Vectors.dll
+bin/Debug/netcoreapp3.0/ubuntu.16.04-arm/System.ObjectModel.dll
+bin/Debug/netcoreapp3.0/ubuntu.16.04-arm/System.Private.CoreLib.dll
+bin/Debug/netcoreapp3.0/ubuntu.16.04-arm/System.Private.DataContractSerialization.dll
+bin/Debug/netcoreapp3.0/ubuntu.16.04-arm/System.Private.Uri.dll
+bin/Debug/netcoreapp3.0/ubuntu.16.04-arm/System.Private.Xml.dll
+bin/Debug/netcoreapp3.0/ubuntu.16.04-arm/System.Private.Xml.Linq.dll
+bin/Debug/netcoreapp3.0/ubuntu.16.04-arm/System.Reflection.DispatchProxy.dll
+bin/Debug/netcoreapp3.0/ubuntu.16.04-arm/System.Reflection.dll
+bin/Debug/netcoreapp3.0/ubuntu.16.04-arm/System.Reflection.Emit.dll
+bin/Debug/netcoreapp3.0/ubuntu.16.04-arm/System.Reflection.Emit.ILGeneration.dll
+bin/Debug/netcoreapp3.0/ubuntu.16.04-arm/System.Reflection.Emit.Lightweight.dll
+bin/Debug/netcoreapp3.0/ubuntu.16.04-arm/System.Reflection.Extensions.dll
+bin/Debug/netcoreapp3.0/ubuntu.16.04-arm/System.Reflection.Metadata.dll
+bin/Debug/netcoreapp3.0/ubuntu.16.04-arm/System.Reflection.Primitives.dll
+bin/Debug/netcoreapp3.0/ubuntu.16.04-arm/System.Reflection.TypeExtensions.dll
+bin/Debug/netcoreapp3.0/ubuntu.16.04-arm/System.Resources.Reader.dll
+bin/Debug/netcoreapp3.0/ubuntu.16.04-arm/System.Resources.ResourceManager.dll
+bin/Debug/netcoreapp3.0/ubuntu.16.04-arm/System.Resources.Writer.dll
+bin/Debug/netcoreapp3.0/ubuntu.16.04-arm/System.Runtime.CompilerServices.Unsafe.dll
+bin/Debug/netcoreapp3.0/ubuntu.16.04-arm/System.Runtime.CompilerServices.VisualC.dll
+bin/Debug/netcoreapp3.0/ubuntu.16.04-arm/System.Runtime.dll
+bin/Debug/netcoreapp3.0/ubuntu.16.04-arm/System.Runtime.Extensions.dll
+bin/Debug/netcoreapp3.0/ubuntu.16.04-arm/System.Runtime.Handles.dll
+bin/Debug/netcoreapp3.0/ubuntu.16.04-arm/System.Runtime.InteropServices.dll
+bin/Debug/netcoreapp3.0/ubuntu.16.04-arm/System.Runtime.InteropServices.RuntimeInformation.dll
+bin/Debug/netcoreapp3.0/ubuntu.16.04-arm/System.Runtime.InteropServices.WindowsRuntime.dll
+bin/Debug/netcoreapp3.0/ubuntu.16.04-arm/System.Runtime.Intrinsics.dll
+bin/Debug/netcoreapp3.0/ubuntu.16.04-arm/System.Runtime.Loader.dll
+bin/Debug/netcoreapp3.0/ubuntu.16.04-arm/System.Runtime.Numerics.dll
+bin/Debug/netcoreapp3.0/ubuntu.16.04-arm/System.Runtime.Serialization.dll
+bin/Debug/netcoreapp3.0/ubuntu.16.04-arm/System.Runtime.Serialization.Formatters.dll
+bin/Debug/netcoreapp3.0/ubuntu.16.04-arm/System.Runtime.Serialization.Json.dll
+bin/Debug/netcoreapp3.0/ubuntu.16.04-arm/System.Runtime.Serialization.Primitives.dll
+bin/Debug/netcoreapp3.0/ubuntu.16.04-arm/System.Runtime.Serialization.Xml.dll
+bin/Debug/netcoreapp3.0/ubuntu.16.04-arm/System.Runtime.WindowsRuntime.dll
+bin/Debug/netcoreapp3.0/ubuntu.16.04-arm/System.Runtime.WindowsRuntime.UI.Xaml.dll
+bin/Debug/netcoreapp3.0/ubuntu.16.04-arm/System.Security.AccessControl.dll
+bin/Debug/netcoreapp3.0/ubuntu.16.04-arm/System.Security.Claims.dll
+bin/Debug/netcoreapp3.0/ubuntu.16.04-arm/System.Security.Cryptography.Algorithms.dll
+bin/Debug/netcoreapp3.0/ubuntu.16.04-arm/System.Security.Cryptography.Cng.dll
+bin/Debug/netcoreapp3.0/ubuntu.16.04-arm/System.Security.Cryptography.Csp.dll
+bin/Debug/netcoreapp3.0/ubuntu.16.04-arm/System.Security.Cryptography.Encoding.dll
+bin/Debug/netcoreapp3.0/ubuntu.16.04-arm/System.Security.Cryptography.Native.OpenSsl.a
+bin/Debug/netcoreapp3.0/ubuntu.16.04-arm/System.Security.Cryptography.Native.OpenSsl.so
+bin/Debug/netcoreapp3.0/ubuntu.16.04-arm/System.Security.Cryptography.OpenSsl.dll
+bin/Debug/netcoreapp3.0/ubuntu.16.04-arm/System.Security.Cryptography.Primitives.dll
+bin/Debug/netcoreapp3.0/ubuntu.16.04-arm/System.Security.Cryptography.X509Certificates.dll
+bin/Debug/netcoreapp3.0/ubuntu.16.04-arm/System.Security.dll
+bin/Debug/netcoreapp3.0/ubuntu.16.04-arm/System.Security.Principal.dll
+bin/Debug/netcoreapp3.0/ubuntu.16.04-arm/System.Security.Principal.Windows.dll
+bin/Debug/netcoreapp3.0/ubuntu.16.04-arm/System.Security.SecureString.dll
+bin/Debug/netcoreapp3.0/ubuntu.16.04-arm/System.ServiceModel.Web.dll
+bin/Debug/netcoreapp3.0/ubuntu.16.04-arm/System.ServiceProcess.dll
+bin/Debug/netcoreapp3.0/ubuntu.16.04-arm/System.Text.Encoding.CodePages.dll
+bin/Debug/netcoreapp3.0/ubuntu.16.04-arm/System.Text.Encoding.dll
+bin/Debug/netcoreapp3.0/ubuntu.16.04-arm/System.Text.Encoding.Extensions.dll
+bin/Debug/netcoreapp3.0/ubuntu.16.04-arm/System.Text.Encodings.Web.dll
+bin/Debug/netcoreapp3.0/ubuntu.16.04-arm/System.Text.Json.dll
+bin/Debug/netcoreapp3.0/ubuntu.16.04-arm/System.Text.RegularExpressions.dll
+bin/Debug/netcoreapp3.0/ubuntu.16.04-arm/System.Threading.Channels.dll
+bin/Debug/netcoreapp3.0/ubuntu.16.04-arm/System.Threading.dll
+bin/Debug/netcoreapp3.0/ubuntu.16.04-arm/System.Threading.Overlapped.dll
+bin/Debug/netcoreapp3.0/ubuntu.16.04-arm/System.Threading.Tasks.Dataflow.dll
+bin/Debug/netcoreapp3.0/ubuntu.16.04-arm/System.Threading.Tasks.dll
+bin/Debug/netcoreapp3.0/ubuntu.16.04-arm/System.Threading.Tasks.Extensions.dll
+bin/Debug/netcoreapp3.0/ubuntu.16.04-arm/System.Threading.Tasks.Parallel.dll
+bin/Debug/netcoreapp3.0/ubuntu.16.04-arm/System.Threading.Thread.dll
+bin/Debug/netcoreapp3.0/ubuntu.16.04-arm/System.Threading.ThreadPool.dll
+bin/Debug/netcoreapp3.0/ubuntu.16.04-arm/System.Threading.Timer.dll
+bin/Debug/netcoreapp3.0/ubuntu.16.04-arm/System.Transactions.dll
+bin/Debug/netcoreapp3.0/ubuntu.16.04-arm/System.Transactions.Local.dll
+bin/Debug/netcoreapp3.0/ubuntu.16.04-arm/System.ValueTuple.dll
+bin/Debug/netcoreapp3.0/ubuntu.16.04-arm/System.Web.dll
+bin/Debug/netcoreapp3.0/ubuntu.16.04-arm/System.Web.HttpUtility.dll
+bin/Debug/netcoreapp3.0/ubuntu.16.04-arm/System.Windows.dll
+bin/Debug/netcoreapp3.0/ubuntu.16.04-arm/System.Xml.dll
+bin/Debug/netcoreapp3.0/ubuntu.16.04-arm/System.Xml.Linq.dll
+bin/Debug/netcoreapp3.0/ubuntu.16.04-arm/System.Xml.ReaderWriter.dll
+bin/Debug/netcoreapp3.0/ubuntu.16.04-arm/System.Xml.Serialization.dll
+bin/Debug/netcoreapp3.0/ubuntu.16.04-arm/System.Xml.XDocument.dll
+bin/Debug/netcoreapp3.0/ubuntu.16.04-arm/System.Xml.XmlDocument.dll
+bin/Debug/netcoreapp3.0/ubuntu.16.04-arm/System.Xml.XmlSerializer.dll
+bin/Debug/netcoreapp3.0/ubuntu.16.04-arm/System.Xml.XPath.dll
+bin/Debug/netcoreapp3.0/ubuntu.16.04-arm/System.Xml.XPath.XDocument.dll
+bin/Debug/netcoreapp3.0/ubuntu.16.04-arm/WindowsBase.dll
+obj/Debug/netcoreapp3.0/Floweum Node.csprojAssemblyReference.cache
+obj/Debug/netcoreapp3.0/Floweum Node.dll
+obj/Debug/netcoreapp3.0/Floweum Node.pdb
+obj/Debug/netcoreapp3.0/ubuntu.16.04-arm/Floweum Node
+obj/Debug/netcoreapp3.0/ubuntu.16.04-arm/Floweum Node.AssemblyInfo.cs
+obj/Debug/netcoreapp3.0/ubuntu.16.04-arm/Floweum Node.AssemblyInfoInputs.cache
+obj/Debug/netcoreapp3.0/ubuntu.16.04-arm/Floweum Node.assets.cache
+obj/Debug/netcoreapp3.0/ubuntu.16.04-arm/Floweum Node.csproj.CopyComplete
+obj/Debug/netcoreapp3.0/ubuntu.16.04-arm/Floweum Node.csproj.FileListAbsolute.txt
+obj/Debug/netcoreapp3.0/ubuntu.16.04-arm/Floweum Node.csprojAssemblyReference.cache
+obj/Debug/netcoreapp3.0/ubuntu.16.04-arm/Floweum Node.dll
+obj/Debug/netcoreapp3.0/ubuntu.16.04-arm/Floweum Node.pdb
+obj/Debug/netcoreapp3.0/ubuntu.16.04-x64/Floweum Node
+obj/Debug/netcoreapp3.0/ubuntu.16.04-x64/Floweum Node.AssemblyInfo.cs
+obj/Debug/netcoreapp3.0/ubuntu.16.04-x64/Floweum Node.AssemblyInfoInputs.cache
+obj/Debug/netcoreapp3.0/ubuntu.16.04-x64/Floweum Node.assets.cache
+obj/Debug/netcoreapp3.0/ubuntu.16.04-x64/Floweum Node.csproj.CopyComplete
+obj/Debug/netcoreapp3.0/ubuntu.16.04-x64/Floweum Node.csproj.FileListAbsolute.txt
+obj/Debug/netcoreapp3.0/ubuntu.16.04-x64/Floweum Node.csprojAssemblyReference.cache
+obj/Debug/netcoreapp3.0/ubuntu.16.04-x64/Floweum Node.dll
+obj/Debug/netcoreapp3.0/ubuntu.16.04-x64/Floweum Node.pdb
+obj/Debug/netcoreapp3.0/ubuntu.18.04-x64/Floweum Node
+obj/Debug/netcoreapp3.0/ubuntu.18.04-x64/Floweum Node.AssemblyInfo.cs
+obj/Debug/netcoreapp3.0/ubuntu.18.04-x64/Floweum Node.AssemblyInfoInputs.cache
+obj/Debug/netcoreapp3.0/ubuntu.18.04-x64/Floweum Node.assets.cache
+obj/Debug/netcoreapp3.0/ubuntu.18.04-x64/Floweum Node.csproj.CopyComplete
+obj/Debug/netcoreapp3.0/ubuntu.18.04-x64/Floweum Node.csproj.FileListAbsolute.txt
+obj/Debug/netcoreapp3.0/ubuntu.18.04-x64/Floweum Node.csprojAssemblyReference.cache
+obj/Debug/netcoreapp3.0/ubuntu.18.04-x64/Floweum Node.dll
+obj/Debug/netcoreapp3.0/ubuntu.18.04-x64/Floweum Node.pdb
+obj/Debug/netcoreapp3.0/win-arm/Floweum Node.AssemblyInfo.cs
+obj/Debug/netcoreapp3.0/win-arm/Floweum Node.AssemblyInfoInputs.cache
+obj/Debug/netcoreapp3.0/win-arm/Floweum Node.assets.cache
+obj/Debug/netcoreapp3.0/win-arm/Floweum Node.csproj.CopyComplete
+obj/Debug/netcoreapp3.0/win-arm/Floweum Node.csproj.FileListAbsolute.txt
+obj/Debug/netcoreapp3.0/win-arm/Floweum Node.csprojAssemblyReference.cache
+obj/Debug/netcoreapp3.0/win-arm/Floweum Node.dll
+obj/Debug/netcoreapp3.0/win-arm/Floweum Node.exe
+obj/Debug/netcoreapp3.0/win-arm/Floweum Node.pdb
+bin/Debug/netcoreapp3.0/Floweum Node.dll
+bin/Debug/netcoreapp3.0/Floweum Node.pdb
+obj/Debug/netcoreapp3.0/Floweum Node.csprojAssemblyReference.cache
+obj/Debug/netcoreapp3.0/Floweum Node.dll
+obj/Debug/netcoreapp3.0/Floweum Node.pdb
