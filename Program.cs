@@ -2,7 +2,7 @@
 using System.Text;
 using System.Threading;
 
-using Floweum_Node.Core;
+using Floweum_Node.Blockchain;
 
 namespace Floweum_Node
 {
@@ -13,6 +13,9 @@ namespace Floweum_Node
         static void Main(string[] args)
         {
             ClassConsole.SetTitle();
+
+            BlockHandler.CreateBlock();
+            DatabaseHandler.BlockchainCheckData();
             ConsoleKeyCommand();
         }
 
