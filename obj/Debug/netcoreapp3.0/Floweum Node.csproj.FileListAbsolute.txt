@@ -9,3 +9,5 @@ C:\Users\Kevin\source\repos\Floweum\Floweum Node\obj\Debug\netcoreapp3.0\Floweum
 C:\Users\Kevin\source\repos\Floweum\Floweum Node\obj\Debug\netcoreapp3.0\Floweum Node.AssemblyInfo.cs
 C:\Users\Kevin\source\repos\Floweum\Floweum Node\obj\Debug\netcoreapp3.0\Floweum Node.dll
 C:\Users\Kevin\source\repos\Floweum\Floweum Node\obj\Debug\netcoreapp3.0\Floweum Node.pdb
+C:\Users\Kevin\source\repos\Floweum\Floweum Node\bin\Debug\netcoreapp3.0\Newtonsoft.Json.dll
+C:\Users\Kevin\source\repos\Floweum\Floweum Node\obj\Debug\netcoreapp3.0\Floweum Node.csproj.CopyComplete

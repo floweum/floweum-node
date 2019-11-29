@@ -5,7 +5,7 @@
   },
   "projects": {
     "C:\\Users\\Kevin\\source\\repos\\Floweum\\Floweum Node\\Floweum Node.csproj": {
-      "version": "1.0.0.24",
+      "version": "1.0.0",
       "restore": {
         "projectUniqueName": "C:\\Users\\Kevin\\source\\repos\\Floweum\\Floweum Node\\Floweum Node.csproj",
         "projectName": "Floweum Node",
@@ -41,6 +41,12 @@
       },
       "frameworks": {
         "netcoreapp3.0": {
+          "dependencies": {
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[12.0.3, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
