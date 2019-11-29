@@ -2,26 +2,74 @@
 using System.Text;
 using System.Threading;
 
+using Floweum_Node.API;
 using Floweum_Node.Blockchain;
+using Floweum_Node.Core;
+using Floweum_Node.Node;
 
 namespace Floweum_Node
 {
     class Program
     {
-        private static Thread ConsoleReadLine;
-
+        public static Thread ApiThread;
+        public static Thread NodeServerConnection;
+        public static Thread NodeClientConnection;
+        
         static void Main(string[] args)
         {
-            ClassConsole.SetTitle();
+            AppDomain.CurrentDomain.ProcessExit += new EventHandler(CurrentDomain_ProcessExit);
 
-            BlockHandler.CreateBlock();
+            ClassConsole.SetTitle(0);
+
+            Config.LogoText();
+
+            StartNodeServer();
+            StartNodeClient();
+            StartApiConnection();
+
+            Thread.Sleep(1000);
+            //BlockHandler.CreateBlock();
             DatabaseHandler.BlockchainCheckData();
             ConsoleKeyCommand();
         }
 
+        static void CurrentDomain_ProcessExit(object sender, EventArgs e)
+        {
+            Console.WriteLine("exit");
+        }
+
+        public static void StartApiConnection()
+        {
+            ApiThread = new Thread(delegate ()
+            {
+                Thread.Sleep(1250);
+                ApiConnection.Connection();
+            });
+            ApiThread.Start();
+        }
+
+        public static void StartNodeServer()
+        {
+            NodeServerConnection = new Thread(delegate ()
+            {
+                NodeServer.Open();
+            });
+            NodeServerConnection.Start();
+        }
+
+        public static void StartNodeClient()
+        {
+            NodeClientConnection = new Thread(delegate ()
+            {
+                Thread.Sleep(750);
+                NodeClient.Connect(Config.SeedNodes[0]);
+            });
+            NodeClientConnection.Start();
+        }
+
         private static void ConsoleKeyCommand()
         {
-            ConsoleReadLine = new Thread(delegate ()
+            Thread ConsoleReadLine = new Thread(delegate ()
             {
                 while (true)
                 {
