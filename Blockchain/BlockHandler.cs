@@ -12,6 +12,10 @@ namespace Floweum_Node.Blockchain
             int StandardSize = 266;
             int Difficulty = 1;
             int Nonce = 2;
+            string ToAddress;
+            string FromAddress;
+            string Amount;
+            string Fee;
             string Timestamp = DateTimeOffset.UtcNow.ToUnixTimeSeconds().ToString().PadLeft(16, '0');
 
             List<String> Block = new List<String>();
@@ -35,19 +39,19 @@ namespace Floweum_Node.Blockchain
             BlockHeader.Add(Nonce.ToString().PadLeft(16, '0'));                     // Nonce
 
             // Transaction 1
-            string ToAddress = Conversion.Hex(Config.GenesisBlockWallet);
-            string FromAddress = Conversion.Hex(Config.CoinTicker.PadRight(64, 'a'));
-            string Amount = Conversion.Hex(Config.GenesisBlockReward.ToString().PadLeft(16, '0'));
-            string Fee = Conversion.Hex("0".PadLeft(16, '0'));
+            ToAddress = Conversion.Hex(Config.GenesisBlockWallet);
+            FromAddress = Conversion.Hex(Config.CoinTicker.PadRight(64, 'a'));
+            Amount = Conversion.Hex(Config.GenesisBlockReward.ToString().PadLeft(16, '0'));
+            Fee = Conversion.Hex("0".PadLeft(16, '0'));
             Transactions.Add(ToAddress);    // To Address
             Transactions.Add(FromAddress);  // From Address
             Transactions.Add(Amount);       // Amount
             Transactions.Add(Fee);          // Fee
             TransactionHashes.Add(Hashing.Sha256(ToAddress + FromAddress + Amount + Fee));
 
-            BlockHeader[2] = MerkleTree.CreateHash(TransactionHashes);      // Add Merkle Tree to Block Header
-            Block[2] = string.Join("", BlockHeader);       // Add Block Header to Block
-            Block[4] = string.Join("", Transactions);      // Add Transactions to Block
+            BlockHeader[2] = Hashing.MerkleTree(TransactionHashes); // Add Merkle Tree to Block Header
+            Block[2] = string.Join("", BlockHeader);                // Add Block Header to Block
+            Block[4] = string.Join("", Transactions);               // Add Transactions to Block
 
             Console.WriteLine(string.Join("", Block));
         }
