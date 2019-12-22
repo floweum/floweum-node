@@ -10,6 +10,15 @@
         "runtime": {
           "lib/netstandard2.0/Newtonsoft.Json.dll": {}
         }
+      },
+      "Pastel/1.3.1": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Pastel.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Pastel.dll": {}
+        }
       }
     }
   },
@@ -44,11 +53,26 @@
         "newtonsoft.json.nuspec",
         "packageIcon.png"
       ]
+    },
+    "Pastel/1.3.1": {
+      "sha512": "QAGMh/TXWkg19eA7HI4kVxSvGWpkpSkhjKYI4zcDYM6nEEETcPmqJpet8STe+YvTs4YG3CpTGSYTRAlRt2PNtA==",
+      "type": "package",
+      "path": "pastel/1.3.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE",
+        "lib/netstandard2.0/Pastel.dll",
+        "lib/netstandard2.0/Pastel.xml",
+        "pastel.1.3.1.nupkg.sha512",
+        "pastel.nuspec"
+      ]
     }
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v3.0": [
-      "Newtonsoft.Json >= 12.0.3"
+      "Newtonsoft.Json >= 12.0.3",
+      "Pastel >= 1.3.1"
     ]
   },
   "packageFolders": {
@@ -96,6 +120,10 @@
           "Newtonsoft.Json": {
             "target": "Package",
             "version": "[12.0.3, )"
+          },
+          "Pastel": {
+            "target": "Package",
+            "version": "[1.3.1, )"
           }
         },
         "imports": [
