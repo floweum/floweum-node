@@ -1,10 +1,9 @@
 ﻿using System;
-using System.Collections;
-using System.Collections.Generic;
-using System.Text;
+using System.Drawing;
 using System.Threading;
 using Floweum_Node.Core;
 using Floweum_Node.Node;
+using Pastel;
 
 namespace Floweum_Node
 {
@@ -29,7 +28,7 @@ namespace Floweum_Node
             switch (command.ToLower())
             {
                 case ConsoleKey.CommandHelp:
-                    ClassConsole.WriteLine("(" + ConsoleKey.CommandStatus + ") Show status - (" + ConsoleKey.CommandHelp + ") This help message - (" + ConsoleKey.CommandExit + ") Exit", "KEYCOMMAND", ConsoleColor.Blue, ConsoleColor.Blue);
+                    ClassConsole.WriteLine("(" + ConsoleKey.CommandStatus + ") Show status - (" + ConsoleKey.CommandHelp + ") This help message - (" + ConsoleKey.CommandExit + ") Exit", "KEYCOMMAND", Color.Blue, Color.Blue);
                     break;
                 case "t":
                     NodeServer.sentToAll("test");
@@ -40,19 +39,12 @@ namespace Floweum_Node
             }
         }
         
-        public static void WriteLine(string text, string type, ConsoleColor color, ConsoleColor color2)
+        public static void WriteLine(string text, string type, Color color, Color color2)
         {
-            Thread.Sleep(100);
-            Console.ForegroundColor = ConsoleColor.Gray;
-            Console.Write("[" + DateTime.Now + "] ");
-            Console.ForegroundColor = color2;
-            Console.Write("[" + type + "]");
-            Console.ForegroundColor = ConsoleColor.Gray;
-            Console.Write(" - ");
-            Console.ForegroundColor = color;
-            Console.Write(text);
-            Console.Write(Environment.NewLine);
+            string newType = "[" + type + "]";
+            string newDate = "[" + DateTime.Now + "]";
 
+            Console.WriteLine(newDate + $" {newType.Pastel(color2)} - {text.Pastel(color)}");
         }
     }
 }

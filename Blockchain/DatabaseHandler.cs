@@ -14,16 +14,16 @@ namespace Floweum_Node.Blockchain
             {
                 // If not, create it
                 Directory.CreateDirectory("Blockchain");
-                ClassConsole.WriteLine("Blockchain directory has been created", "BLOCKCHAIN", ConsoleColor.DarkGreen, ConsoleColor.Yellow);
+                ClassConsole.WriteLine("Blockchain directory has been created", "BLOCKCHAIN", Colors.DarkGreen, Colors.Yellow);
             }
             else
             {
                 // If it is, message and next step
-                ClassConsole.WriteLine("Blockchain directory exists", "BLOCKCHAIN", ConsoleColor.DarkGreen, ConsoleColor.Yellow);
+                ClassConsole.WriteLine("Blockchain directory exists", "BLOCKCHAIN", Colors.DarkGreen, Colors.Yellow);
 
                 if (File.Exists("Blockchain/" + Config.BlockchainBlocksDatabase))
                 {
-                    ClassConsole.WriteLine("Database file '" + Config.BlockchainBlocksDatabase + "' exists", "BLOCKCHAIN", ConsoleColor.Green, ConsoleColor.Yellow);
+                    ClassConsole.WriteLine("Database file '" + Config.BlockchainBlocksDatabase + "' exists", "BLOCKCHAIN", Colors.Green, Colors.Yellow);
                 }
                 else
                 {
@@ -37,7 +37,7 @@ namespace Floweum_Node.Blockchain
 
                 if (File.Exists("Blockchain/" + Config.BlockchainTransactionsDatabase))
                 {
-                    ClassConsole.WriteLine("Database file '" + Config.BlockchainTransactionsDatabase + "' exists", "BLOCKCHAIN", ConsoleColor.Green, ConsoleColor.Yellow);
+                    ClassConsole.WriteLine("Database file '" + Config.BlockchainTransactionsDatabase + "' exists", "BLOCKCHAIN", Colors.Green, Colors.Yellow);
                 }
                 else
                 {

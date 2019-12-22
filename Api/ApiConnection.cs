@@ -21,15 +21,15 @@ namespace Floweum_Node.API
             {
                 listener = new TcpListener(IPAddress.Any, Config.ApiPort);
                 listener.Start();
-                ClassConsole.WriteLine("Starting API server on " + IPAddress.Any + ":" + Config.ApiPort, "API", ConsoleColor.DarkGreen, ConsoleColor.DarkMagenta);
+                ClassConsole.WriteLine("Starting API server on " + IPAddress.Any + ":" + Config.ApiPort, "API", Colors.DarkGreen, Colors.DarkMagenta);
             }
             catch(Exception)
             {
-                ClassConsole.WriteLine("Could not start server, port " + Config.ApiPort + " is already used!", "API", ConsoleColor.Red, ConsoleColor.DarkMagenta);
+                ClassConsole.WriteLine("Could not start server, port " + Config.ApiPort + " is already used!", "API", Colors.Red, Colors.DarkMagenta);
                 return;
             }
 
-            ClassConsole.WriteLine("API server started", "API", ConsoleColor.Green, ConsoleColor.DarkMagenta);
+            ClassConsole.WriteLine("API server started", "API", Colors.Green, Colors.DarkMagenta);
 
             while (true)
             {

@@ -18,7 +18,7 @@ namespace Floweum_Node.Node
             Socket server = new Socket(AddressFamily.InterNetwork, SocketType.Stream, ProtocolType.Tcp);
             server.ReceiveTimeout = -1;
 
-            ClassConsole.WriteLine("Connecting to seed node " + (seedNodeListNo +1) + " on address " + Config.SeedNodes[seedNodeListNo] + ":" + Config.Port, "NODE_CLI", ConsoleColor.DarkYellow, ConsoleColor.Cyan);
+            ClassConsole.WriteLine("Connecting to seed node " + (seedNodeListNo +1) + " on address " + Config.SeedNodes[seedNodeListNo] + ":" + Config.Port, "NODE_CLI", Colors.DarkYellow, Colors.Cyan);
             
 
             // Connect to the server.
@@ -26,14 +26,14 @@ namespace Floweum_Node.Node
             catch (Exception)
             {
                 // Error connecing to server
-                ClassConsole.WriteLine("Could not connect to " + serverEp + "!", "NODE_CLI", ConsoleColor.Red, ConsoleColor.Cyan);
+                ClassConsole.WriteLine("Could not connect to " + serverEp + "!", "NODE_CLI", Colors.Red, Colors.Cyan);
                 if (seedNodeListNo == Config.SeedNodes.Length - 1) { seedNodeListNo = 0; } else { seedNodeListNo = seedNodeListNo+1; }
                 Connect(Config.SeedNodes[seedNodeListNo]);
                 return;
             }
 
             // Connected
-            ClassConsole.WriteLine("Connected to seed node " + (seedNodeListNo + 1) + " on address " + serverEp, "NODE_CLI", ConsoleColor.Green, ConsoleColor.Cyan);
+            ClassConsole.WriteLine("Connected to seed node " + (seedNodeListNo + 1) + " on address " + serverEp, "NODE_CLI", Colors.Green, Colors.Cyan);
             WorkWithServer(server);
         }
 

@@ -22,17 +22,17 @@ namespace Floweum_Node.Node
             // Start listening.
             try
             {
-                ClassConsole.WriteLine("Starting node server on address " + IPAddress.Any + ":" + Config.Port, "NODE_SRV", ConsoleColor.DarkGreen, ConsoleColor.DarkCyan);
+                ClassConsole.WriteLine("Starting node server on address " + IPAddress.Any + ":" + Config.Port, "NODE_SRV", Colors.DarkGreen, Colors.DarkCyan);
                 server.Bind(new IPEndPoint(IPAddress.Any, port));
                 server.Listen(backlog);
             }
             catch (Exception)
             {
-                ClassConsole.WriteLine("Could not start server, port " + Config.Port + " is already used!", "NODE_SRV", ConsoleColor.Red, ConsoleColor.DarkCyan);
+                ClassConsole.WriteLine("Could not start server, port " + Config.Port + " is already used!", "NODE_SRV", Colors.Red, Colors.DarkCyan);
                 return;
             }
 
-            ClassConsole.WriteLine("Node server started", "NODE_SRV", ConsoleColor.Green, ConsoleColor.DarkCyan);
+            ClassConsole.WriteLine("Node server started", "NODE_SRV", Colors.Green, Colors.DarkCyan);
 
             while (true)
             {
@@ -50,11 +50,11 @@ namespace Floweum_Node.Node
                         {
                             connections = (connections - 1);
                             ClassConsole.SetTitle(connections);
-                            ClassConsole.WriteLine("Node disconnected from address " + client.RemoteEndPoint, "NODE_SRV", ConsoleColor.DarkGreen, ConsoleColor.DarkCyan);
+                            ClassConsole.WriteLine("Node disconnected from address " + client.RemoteEndPoint, "NODE_SRV", Colors.DarkGreen, Colors.DarkCyan);
                         }
                         else
                         {
-                            ClassConsole.WriteLine("Client connection processing error: " + ex.Message, "NODE_SRV", ConsoleColor.Red, ConsoleColor.DarkCyan);
+                            ClassConsole.WriteLine("Client connection processing error: " + ex.Message, "NODE_SRV", Colors.Red, Colors.DarkCyan);
                         }
                     }
                 }).Start();
@@ -73,7 +73,7 @@ namespace Floweum_Node.Node
         static void Process(Socket client)
         {
             ClassConsole.SetTitle(connections);
-            ClassConsole.WriteLine("Node connected from address " + client.RemoteEndPoint, "NODE_SRV", ConsoleColor.DarkGreen, ConsoleColor.DarkCyan);
+            ClassConsole.WriteLine("Node connected from address " + client.RemoteEndPoint, "NODE_SRV", Colors.DarkGreen, Colors.DarkCyan);
 
             const int maxMessageSize = 1024;
             byte[] response;
@@ -93,12 +93,12 @@ namespace Floweum_Node.Node
                 {
                     connections = (connections - 1);
                     ClassConsole.SetTitle(connections);
-                    ClassConsole.WriteLine("Node disconnected from address " + client.RemoteEndPoint, "NODE_SRV", ConsoleColor.DarkGreen, ConsoleColor.DarkCyan);
+                    ClassConsole.WriteLine("Node disconnected from address " + client.RemoteEndPoint, "NODE_SRV", Colors.DarkGreen, Colors.DarkCyan);
                     client.Close();
                     return;
                 } else
                 {
-                    ClassConsole.WriteLine("[" + client.RemoteEndPoint + "] " + Encoding.ASCII.GetString(respBytesList.ToArray()), "NODE_SRV", ConsoleColor.DarkBlue, ConsoleColor.DarkCyan);
+                    ClassConsole.WriteLine("[" + client.RemoteEndPoint + "] " + Encoding.ASCII.GetString(respBytesList.ToArray()), "NODE_SRV", Colors.DarkBlue, Colors.DarkCyan);
                 }
             }
 
