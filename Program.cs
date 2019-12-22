@@ -23,13 +23,21 @@ namespace Floweum_Node
 
             Config.LogoText();
 
+            // Blockchain check
+            DatabaseHandler.BlockchainCheckData();
+
+            // Start node server
             StartNodeServer();
+
+            // Start node client
             StartNodeClient();
+
+            // Start api server
             StartApiConnection();
 
-            Thread.Sleep(1000);
             //BlockHandler.CreateBlock();
-            DatabaseHandler.BlockchainCheckData();
+            
+            // Console key commands
             ConsoleKeyCommand();
         }
 
