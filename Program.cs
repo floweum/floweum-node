@@ -21,6 +21,7 @@ namespace Floweum_Node
 
             ClassConsole.SetTitle(0);
 
+            // Show logo
             Config.LogoText();
 
             // Blockchain check
@@ -50,7 +51,7 @@ namespace Floweum_Node
         {
             ApiThread = new Thread(delegate ()
             {
-                Thread.Sleep(1250);
+                Thread.Sleep(2000);
                 ApiConnection.Connection();
             });
             ApiThread.Start();
@@ -69,7 +70,7 @@ namespace Floweum_Node
         {
             NodeClientConnection = new Thread(delegate ()
             {
-                Thread.Sleep(750);
+                Thread.Sleep(1000);
                 NodeClient.Connect(Config.SeedNodes[0]);
             });
             NodeClientConnection.Start();
